@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class BTSequencer : BTComposite
+public class BTSelector : BTComposite
 {
     private int _currentNode = 0;
-    public BTSequencer(BehaviourTree tree, BTNode[] children) : base(tree, children)
+    public BTSelector(BehaviourTree tree, BTNode[] children) : base(tree, children)
     {
 
     }
@@ -20,6 +20,8 @@ class BTSequencer : BTComposite
 
             if (result == Result.Running)
                 return Result.Running;
+            else if (result == Result.Success)
+                return Result.Success;
             else if (result == Result.Failure)
             {
                 _currentNode = 0;

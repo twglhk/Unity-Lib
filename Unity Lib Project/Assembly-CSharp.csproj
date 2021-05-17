@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AI\TestAI.cs" />
-    <Compile Include="Assets\BT Sample\BTDecorator.cs" />
-    <Compile Include="Assets\BT Sample\BTNode.cs" />
-    <Compile Include="Assets\BT Sample\BTComposite.cs" />
-    <Compile Include="Assets\BT Sample\BTRandomWalk.cs" />
-    <Compile Include="Assets\BT Sample\BTSequencer.cs" />
-    <Compile Include="Assets\BT Sample\BTRepeater.cs" />
     <Compile Include="Assets\BT Sample\BTSelector.cs" />
+    <Compile Include="Assets\BT Sample\BTRandomWalk.cs" />
+    <Compile Include="Assets\BT Sample\BTNode.cs" />
+    <Compile Include="Assets\BT Sample\BTRepeater.cs" />
+    <Compile Include="Assets\BT Sample\BTDecorator.cs" />
+    <Compile Include="Assets\AI\TestAI.cs" />
+    <Compile Include="Assets\BT Sample\BTComposite.cs" />
     <Compile Include="Assets\BT Sample\BehaviourTree.cs" />
+    <Compile Include="Assets\BT Sample\BTSequencer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -648,6 +648,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Fluid.BehaviorTree.csproj">
+      <Project>{7F054A15-D968-A725-446C-DA80EBFB5DAE}</Project>
+      <Name>Fluid.BehaviorTree</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{983A320D-6529-CE70-6F68-7C3DD528FF62}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -675,10 +679,6 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{B81B4FB5-B72B-C144-31F8-4412F915C6DF}</Project>
       <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fluid.BehaviorTree.csproj">
-      <Project>{7F054A15-D968-A725-446C-DA80EBFB5DAE}</Project>
-      <Name>Fluid.BehaviorTree</Name>
     </ProjectReference>
     <ProjectReference Include="Fluid.BehaviorTree.Editor.csproj">
       <Project>{EDE8A52A-E192-6569-FD9F-E46F606B99F5}</Project>

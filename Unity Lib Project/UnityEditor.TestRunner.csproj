@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\IPlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\ApplePlatformSetup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\IPlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestRun\Tasks\LegacyEditModeRunTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />

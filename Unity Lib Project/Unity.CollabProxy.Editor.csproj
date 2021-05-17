@@ -102,9 +102,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\UserInterface\ToolbarButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\TabView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\HistoryEntryChangeListAdapter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Assets\UiConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\LocationAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ProgressView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Assets\UiConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\BaseChangeListElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\AlertBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\StartPageView.cs" />

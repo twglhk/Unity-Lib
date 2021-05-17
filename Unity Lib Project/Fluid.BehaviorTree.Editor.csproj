@@ -56,26 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeFaders.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeBoxStyle.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeBoxStyleCollection.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\GraphContainerVertical.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\ColorFader.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\GraphBox.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\BehaviorTreeWindow.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\GraphNode\GraphNodeOptions.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\BehaviorTreeDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\AssetPath.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\IGraphBox.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\GraphNode\GraphNodePrinter.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\VisualTask.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\GraphContainerHorizontal.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\IGraphContainer.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\BehaviorTreePrinter.cs" />
-    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\NodePrintController.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeFaders.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\TextureLoader.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\GraphNode\GraphNode.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\GraphNode\GraphNodePrinter.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\GraphNode\GraphNodeOptions.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\BehaviorTreeDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\IGraphContainer.cs" />
     <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\StatusIcons.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeBoxStyleCollection.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\NodePrintController.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\NodeBoxStyle.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\ColorFader.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Graphics\AssetPath.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\Containers\GraphContainerHorizontal.cs" />
+    <Compile Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\BehaviorTree\Printer\BehaviorTreePrinter.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.fluid.behavior-tree@2.2.3\Editor\Fluid.BehaviorTree.Editor.asmdef" />

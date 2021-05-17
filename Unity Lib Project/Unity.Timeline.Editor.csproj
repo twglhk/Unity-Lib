@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\Modes\TimelineInactiveMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\Menus\MenuItemActionBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Recording\TimelineRecording_Monobehaviour.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\TrackAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\TrackDrawer.cs" />
@@ -113,12 +113,12 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalReceiverHeader.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Undo\UndoExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Audio\AudioClipPropertiesDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\CustomEditors\ClipEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalEmitterInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\Modes\TimelineActiveMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Cursors\TimelineCursors.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\TrackPropertyCurvesDataSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Snapping\IAttractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Trim\TrimItemModeReplace.cs" />
@@ -201,8 +201,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Items\ITimelineItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\ClipsActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Sequence\TrimClip.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Items\ItemsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\ItemGui\TimelineMarkerClusterGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Items\ItemsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\TreeView\SignalReceiverItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Move\MovingItems.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Move\MoveItemModeReplace.cs" />
@@ -217,9 +217,9 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Shortcuts.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindow_Manipulators.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\PickerUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindowTimeControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindow_EditorCallbacks.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\PickerUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\Scopes\IndentLevelScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\TimelineActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\BreadcrumbDrawer.cs" />

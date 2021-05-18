@@ -65,6 +65,7 @@
     <Compile Include="Assets\BT Sample\BTComposite.cs" />
     <Compile Include="Assets\BT Sample\BehaviourTree.cs" />
     <Compile Include="Assets\BT Sample\BTSequencer.cs" />
+    <Compile Include="Assets\Libs\PhysicsCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -75,6 +75,12 @@ namespace John.GameLib.PhysicsLib
 
             return result;
         }
+
+        public static void ResetForce(in Rigidbody rigidbody)
+        {
+            rigidbody.velocity = Vector3.zero;
+            rigidbody.angularVelocity = Vector3.zero;
+        }
         #endregion
     }
 }

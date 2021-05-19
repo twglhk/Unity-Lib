@@ -65,6 +65,11 @@ public class ColliderChecker : MonoBehaviour
     {
         return CheckColliders(_objTr, _radius, _layer, (c) => true);
     }
+    
+    public static List<Collider> CheckColliders(Vector3 targetPos, float _radius = 1f, int _layer = Layers.all)
+    {
+        return CheckColliders(targetPos, _radius, _layer, (c) => true);
+    }
 
     /// <summary>
     /// 구형 범위 탐색으로 조건을 만족하는 IEnumerable<Colliider>을 리턴
@@ -79,6 +84,17 @@ public class ColliderChecker : MonoBehaviour
         var searchedColliders = Physics.OverlapSphere(_objTr.position, _radius, _layer).ToList();
         var targetColliders = from col in searchedColliders
                               where col.transform != _objTr && _conditionDelegate(col)
+                              select col;
+
+        if (targetColliders.Count() == 0) return null;
+        return targetColliders.ToList();
+    }
+    
+    public static List<Collider> CheckColliders(Vector3 targetPos, float _radius, int _layer, Func<Collider, bool> _conditionDelegate)
+    {
+        var searchedColliders = Physics.OverlapSphere(targetPos, _radius, _layer).ToList();
+        var targetColliders = from col in searchedColliders
+                              where _conditionDelegate(col)
                               select col;
 
         if (targetColliders.Count() == 0) return null;

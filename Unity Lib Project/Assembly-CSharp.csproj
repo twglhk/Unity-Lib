@@ -69,6 +69,7 @@
     <Compile Include="Assets\Lib source files\TrajectoryTest.cs" />
     <Compile Include="Assets\Lib source files\FollowPosJob.cs" />
     <Compile Include="Assets\Lib source files\ColliderChecker.cs" />
+    <Compile Include="Assets\Lib source files\VectorLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

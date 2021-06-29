@@ -59,13 +59,16 @@
     <Compile Include="Assets\BT Sample\BTSelector.cs" />
     <Compile Include="Assets\BT Sample\BTRandomWalk.cs" />
     <Compile Include="Assets\BT Sample\BTNode.cs" />
+    <Compile Include="Assets\Lib source files\PhysicsCalculator.cs" />
     <Compile Include="Assets\BT Sample\BTRepeater.cs" />
     <Compile Include="Assets\BT Sample\BTDecorator.cs" />
     <Compile Include="Assets\AI\TestAI.cs" />
     <Compile Include="Assets\BT Sample\BTComposite.cs" />
     <Compile Include="Assets\BT Sample\BehaviourTree.cs" />
     <Compile Include="Assets\BT Sample\BTSequencer.cs" />
-    <Compile Include="Assets\Libs\PhysicsCalculator.cs" />
+    <Compile Include="Assets\Lib source files\TrajectoryTest.cs" />
+    <Compile Include="Assets\Lib source files\FollowPosJob.cs" />
+    <Compile Include="Assets\Lib source files\ColliderChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -289,6 +292,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Users\User\Desktop\Unity\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.4.8\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Users\User\Desktop\Unity\2020.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -684,6 +690,22 @@
     <ProjectReference Include="Fluid.BehaviorTree.Editor.csproj">
       <Project>{EDE8A52A-E192-6569-FD9F-E46F606B99F5}</Project>
       <Name>Fluid.BehaviorTree.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{4067EC8D-7A3C-9031-3100-3CBCB7FFFB70}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{FF5FF0B6-5F68-8635-5EEC-35E9F5E94460}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{A49C72F0-A8B3-BF69-601C-13DCC03ADEEC}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{C50A65E6-4717-7080-11A8-B445B8C55DB9}</Project>
+      <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
